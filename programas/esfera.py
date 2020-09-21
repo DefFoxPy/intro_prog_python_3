@@ -1,6 +1,7 @@
 from math import pi
 
-radio = 1
+cadena_leida = input()
+radio = float(cadena_leida)
 volumen = 4 / 3 * pi * radio ** 3
 
 print(volumen)
