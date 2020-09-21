@@ -1,2 +1,4 @@
-# intro_prog_python_3
- Introducción a la programación con Python 3
+# Introducción a la programación con Python 3
+
+Indice:
+[3. Programas](./programas)
