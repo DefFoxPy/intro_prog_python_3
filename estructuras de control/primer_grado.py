@@ -8,4 +8,7 @@ if a != 0:
 	print('Solución: ', x)
 
 if a == 0:
-	print('la ecuación no tiene solución')
+	if b != 0:
+		print('la ecuación no tiene solución')
+	else:
+		print('la ecuación tiene infinitas soluciones')
