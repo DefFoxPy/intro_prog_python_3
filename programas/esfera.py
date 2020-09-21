@@ -6,5 +6,5 @@ radio = float(input('Dame el radio (en metros): '))
 
 volumen = 4 / 3 * pi * radio ** 3
 
-print('Volumen:', volumen, 'metros cúbicos.', end='')
+print('Volumen: {0:.2f} metros cúbicos.'.format(volumen), end='')
 print('Gracias por usar el programa. Adiós')
