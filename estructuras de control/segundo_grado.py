@@ -11,5 +11,6 @@ if a != 0:
 	x2 = (-b - sqrt(b**2 - 4*a*c)) / (2 * a)
 	print('Soluciones x1={0:.3f} y x2={1:.3f}'.format(x1, x2))
 
-if a == 0:
-	print('No es una ecuación de segundo grado.')
+else:
+	x = -c / b
+	print('Solución: x = {0:.3f}'.format(x))
