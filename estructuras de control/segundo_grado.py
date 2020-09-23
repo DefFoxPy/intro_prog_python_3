@@ -12,5 +12,11 @@ if a != 0:
 	print('Soluciones x1={0:.3f} y x2={1:.3f}'.format(x1, x2))
 
 else:
-	x = -c / b
-	print('Solución: x = {0:.3f}'.format(x))
+	if b != 0:
+		x = -c / b
+		print('Solución: x = {0:.3f}'.format(x))
+	else:
+		if c != 0:
+			print('La ecuación no tiene solución')
+		else:
+			print('La ecuación tiene infinitas soluciones')
