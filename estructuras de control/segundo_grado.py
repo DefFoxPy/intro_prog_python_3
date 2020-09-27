@@ -10,7 +10,10 @@ if a != 0:
 	if b ** 2 - 4 * a * c >= 0:
 		x1 = (-b + sqrt(b**2 - 4*a*c)) / (2 * a)
 		x2 = (-b - sqrt(b**2 - 4*a*c)) / (2 * a)
-		print('Soluciones x1={0:.3f} y x2={1:.3f}'.format(x1, x2))
+		if  x1 == x2:
+			print('Solución: x={0:.3f}'.format(x1))
+		else:
+			print('Soluciones x1={0:.3f} y x2={1:.3f}'.format(x1, x2))
 	else:
 		print('No hay soluciones reales.')
 else:
